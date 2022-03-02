@@ -1,0 +1,287 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(27, 27, 27);
+}
+hr{
+    color: white;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    margin-left: 30px;
+}
+.logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    color: #135e58; 
+    font-size: 20px;
+}
+menu{
+    display: flex;
+    flex-direction: row;
+}
+menu button{
+    
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+    border: none;
+    background-color: rgb(37, 37, 37);
+    transition: 0.5s ease;
+}
+menu button>img{
+    width: 300px; 
+    height: 234px;
+}
+menu button:hover{
+    color: #30d5c8;
+    font-size: 25px;
+    margin-top: 0;
+    background-color: rgb(37, 37, 37);
+}
+.actv{
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+    background-color: #30d5c8;
+}
+
+.po{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.isk{
+    margin-left: 8px;
+    transform: rotate(45deg);
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 9px;
+}
+.PoSearch{
+    height: 42px;
+    width: 0px;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    color: black;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 50px;
+    cursor: pointer;
+    right: 50px;
+    z-index: 2;
+}
+.PoSearch:focus{
+    /* background: rgb(37, 37, 37); */
+    background-color: white;
+    width: 250px;
+    z-index: 1;
+    cursor: text;
+    border-bottom: 2px solid #135e58;
+}
+.PoiskBut{
+    z-index: 1;
+    background: #135e58;
+    border: none;
+    height: 42px;
+    width: 42px;
+    padding: 0 30px 0 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.miniInformation{
+    margin: 20px 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Info{
+    margin: 20px;
+    width: 40%;
+}
+.partn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logoPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoPart a{
+    margin: 10px;
+}
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people div{
+    padding: 10px;
+    background-color: rgb(57, 57, 57);
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+content{
+    max-width: 80%;
+}
+.kategor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kategor button{
+    background-color: rgb(65, 65, 65);
+    min-height: 300px;
+    margin: 10px;
+    border: none;
+    /* border-radius: 20px; */
+    padding: 20px;
+}
+.kategor img{
+    /* border-radius: 15px; */
+    width: 300px; 
+    height: 234px;
+}
+.kategor button:hover{
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0px 6px 30px #2bb9ad;
+    margin: 10px;
+    border: none;
+    /* border-radius: 20px; */
+    padding: 20px;
+}
+.kategor button:hover p{
+    color: #30d5c8;
+}
+.kategor h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.kategor div{
+    width: 100%;
+}
+.kategor p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.filters{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px 60px;
+    padding: 20px;
+}
+.filters button{
+    background-color: cadetblue;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.filters button:hover{
+    background-color: white;
+    box-shadow: 0px 0px 30px cadetblue;
+}
+.tovary{
+    min-width: 1000px;
+    border-radius: 30px;
+    background-color: rgb(44, 44, 44);
+    margin: 20px 60px;
+    padding: 20px;
+    padding-top: 10px;
+}
+.produkt{
+    border-radius: 30px;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    margin-top: 20px;
+}
+.produkt img{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+}
+.produkt p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.produkt .p{
+    width: 50%;
+}
+.buy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    width: 30%;
+}
+.buy p{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    margin-right: 10px;
+}
+.buy input{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    background-color: #2bb9ad;
+    border: none;
+    border-radius: 10px;
+}
+.buy input:hover{
+    background-color: white;
+    color: #2bb9ad;
+    box-shadow: 0px 0px 30px #2bb9ad;
+}
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color: rgb(37, 37, 37);
+}
